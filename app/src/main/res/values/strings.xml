@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">مرشدي في الحج</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_main_points">النقاط الرئيسية</string>
+    <string name="title_campaigns">الحملات </string>
+    <string name="title_track_guide">تتبع مرشد الحملة</string>
 </resources>

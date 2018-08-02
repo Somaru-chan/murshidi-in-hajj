@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murshidiinhajj.LandingActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/makkah_bg">
 
     <TextView
         android:id="@+id/marhaba"
