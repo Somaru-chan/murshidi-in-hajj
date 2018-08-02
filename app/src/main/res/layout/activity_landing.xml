@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.murshidiinhajj.LandingActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/marhaba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مرحبًا بك!"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="70dp"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/murshidBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hajjBtn"
+        android:layout_alignStart="@+id/hajjBtn"
+        android:layout_below="@+id/marhaba"
+        android:gravity="center"
+        android:text="أنا مرشد حملة"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/murshidBtn"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:text="أو"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/hajjBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/or"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="أنا حاج"
+        android:textSize="20sp" />
+</RelativeLayout>
