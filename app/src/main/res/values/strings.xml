@@ -3,4 +3,6 @@
     <string name="title_main_points">النقاط الرئيسية</string>
     <string name="title_campaigns">الحملات </string>
     <string name="title_track_guide">تتبع مرشد الحملة</string>
+    <string name="title_activity_main_points_map">Map</string>
+    <string name="title_activity_track_guide">Map</string>
 </resources>

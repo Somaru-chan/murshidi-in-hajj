@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@drawable/makkah_bg"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,9 +9,12 @@
     <com.google.android.gms.common.SignInButton
         android:id="@+id/signInBtn"
         android:layout_width="240dp"
-        android:layout_height="50dp">
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp">
 
     </com.google.android.gms.common.SignInButton>
 
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

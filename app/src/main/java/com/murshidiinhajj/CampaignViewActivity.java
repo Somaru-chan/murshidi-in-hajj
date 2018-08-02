@@ -1,5 +1,6 @@
 package com.murshidiinhajj;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -9,8 +10,6 @@ import android.widget.TextView;
 
 public class CampaignViewActivity extends AppCompatActivity {
 
-    private TextView mTextMessage;
-
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
@@ -18,13 +17,15 @@ public class CampaignViewActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_main_points:
-                    mTextMessage.setText(R.string.title_main_points);
-                    return true;
+                    Intent mpIntent = new Intent(CampaignViewActivity.this, MainPointsMapActivity.class);
+                    startActivity(mpIntent);
+
                 case R.id.navigation_campaigns:
-                    mTextMessage.setText(R.string.title_campaigns);
+
+
                     return true;
                 case R.id.navigation_track_guide:
-                    mTextMessage.setText(R.string.title_track_guide);
+
                     return true;
             }
             return false;
@@ -36,9 +37,7 @@ public class CampaignViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campaign_view);
 
-        mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
-
 }
