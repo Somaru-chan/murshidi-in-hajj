@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murshidiinhajj.LandingActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/makkah_bg">
 
     <TextView
         android:id="@+id/marhaba"
@@ -16,17 +17,19 @@
         android:gravity="center_horizontal"
         android:layout_marginTop="80dp"
         android:layout_marginBottom="70dp"
-        android:textSize="40sp"/>
+        android:textSize="55sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/murshidBtn"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/hajjBtn"
-        android:layout_alignStart="@+id/hajjBtn"
-        android:layout_below="@+id/marhaba"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/marhaba"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
         android:gravity="center"
-        android:text="أنا مرشد حملة"
+        android:text="مرشد حملة"
         android:textSize="20sp" />
 
     <TextView
@@ -39,15 +42,17 @@
         android:layout_marginTop="35dp"
         android:gravity="center_horizontal"
         android:text="أو"
-        android:textSize="23sp" />
+        android:textSize="23sp"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/hajjBtn"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/murshidBtn"
+        android:layout_alignStart="@+id/murshidBtn"
         android:layout_below="@+id/or"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
-        android:text="أنا حاج"
+        android:text="حاج"
         android:textSize="20sp" />
 </RelativeLayout>

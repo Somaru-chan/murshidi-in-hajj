@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -20,10 +21,6 @@ public class CampaignViewActivity extends AppCompatActivity {
                     Intent mpIntent = new Intent(CampaignViewActivity.this, MainPointsMapActivity.class);
                     startActivity(mpIntent);
 
-                case R.id.navigation_campaigns:
-
-
-                    return true;
                 case R.id.navigation_track_guide:
 
                     return true;
@@ -32,6 +29,7 @@ public class CampaignViewActivity extends AppCompatActivity {
         }
     };
 
+    private Toolbar campToolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,5 +37,9 @@ public class CampaignViewActivity extends AppCompatActivity {
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        campToolbar = (Toolbar) findViewById(R.id.campTB);
+        setSupportActionBar(campToolbar);
+        setTitle("مرشدي في الحج");
     }
 }

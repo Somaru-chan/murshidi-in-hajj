@@ -39,18 +39,36 @@ public class MainPointsMapActivity extends FragmentActivity implements OnMapRead
         mMap = googleMap;
 
         // Add a marker in Mina and move the camera
-        LatLng Mina = new LatLng(21.4080, 39.8893);
-        mMap.addMarker(new MarkerOptions().position(Mina).title("المؤشر على منى، مكة المكرمة"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(Mina));
+        LatLng shamsTaiba = new LatLng(21.3948381, 39.90462279999997);
+        mMap.addMarker(new MarkerOptions().position(shamsTaiba).title("مخيم حملة شمس طيبة"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(shamsTaiba));
 
 
-        LatLng Muzdalifah = new LatLng(21.3925,  39.937778);
-        mMap.addMarker(new MarkerOptions().position(Muzdalifah).title("المؤشر على مزدلفة، مكة المكرمة"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(Muzdalifah));
+        LatLng AlHuaizi = new LatLng(21.387365,  39.897681000000034);
+        mMap.addMarker(new MarkerOptions().position(AlHuaizi).title("مخيم حملة الحويزي للحج - مزدلفة"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(AlHuaizi));
 
 
-        LatLng Arafat = new LatLng(21.354741, 39.984049);
-        mMap.addMarker(new MarkerOptions().position(Arafat).title("المؤشر على عرفات، مكة المكرمة"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(Arafat));
+        LatLng mashaelAlnoor = new LatLng(21.3882133, 39.90482750000001);
+        mMap.addMarker(new MarkerOptions().position(mashaelAlnoor).title("مخيم مشاعل النور - مزدلفة"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(mashaelAlnoor));
+
+
+        LatLng Tawaef = new LatLng(21.4146051, 39.894563999999946);
+        mMap.addMarker(new MarkerOptions().position(Tawaef).title("مخيم شركة طوائف - منى"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(Tawaef));
+
+
+        LatLng AhmedArab = new LatLng(21.3974531, 39.90205070000002);
+        mMap.addMarker(new MarkerOptions().position(AhmedArab).title("حملة أحمد عرب لخدمة حجاج الداخل"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(AhmedArab));
+
+
+        LatLng YaseenAlbar = new LatLng(21.4031276, 39.894868599999995);
+        mMap.addMarker(new MarkerOptions().position(YaseenAlbar).title("مخيم حملة ياسين البار"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(YaseenAlbar));
+
+
+
     }
 }

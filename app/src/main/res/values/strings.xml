@@ -5,4 +5,12 @@
     <string name="title_track_guide">تتبع مرشد الحملة</string>
     <string name="title_activity_main_points_map">Map</string>
     <string name="title_activity_track_guide">Map</string>
+    <string name="title_activity_shamsTaiba">حملة شمس طيبة</string>
+    <string name="title_activity_AlHuaizi">حملة الحويزي للحج</string>
+    <string name="title_activity_mashaelAlnoor">حملة مشاعل النور</string>
+    <string name="title_activity_Tawaef">حملة شركة طوائف</string>
+    <string name="title_activity_AhmedArab">حملة أحمد عرب لخدمة حجاج الداخل</string>
+    <string name="title_activity_YaseenAlbar">حملة ياسين البار</string>
+
+
 </resources>

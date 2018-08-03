@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "357269706890-as2iqv5vk8m1ebvcrr0gp9e56io8clof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.murshidiinhajj",
+            "certificate_hash": "15d63416a53591a3fc2db937237345b52620e972"
+          }
+        },
+        {
           "client_id": "357269706890-o45hnvrpu79b5qfd2r7hc734no81pink.apps.googleusercontent.com",
           "client_type": 3
         }

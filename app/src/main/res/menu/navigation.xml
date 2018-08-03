@@ -7,11 +7,6 @@
         android:title="@string/title_main_points" />
 
     <item
-        android:id="@+id/navigation_campaigns"
-        android:icon="@drawable/baseline_view_list_black_48"
-        android:title="@string/title_campaigns" />
-
-    <item
         android:id="@+id/navigation_track_guide"
         android:icon="@drawable/baseline_gps_fixed_black_48"
         android:title="@string/title_track_guide" />
